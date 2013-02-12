@@ -5,7 +5,7 @@ require 'japanese-phone-number/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "japanese-phone-number"
-  gem.version       = Japanese::Phone::Number::VERSION
+  gem.version       = JapanesePhoneNumber::VERSION
   gem.authors       = ["Ryosuke Yamazaki"]
   gem.email         = ["ryosuke.yamazaki@mac.com"]
   gem.description   = "Japanese Phone Number Validator"
