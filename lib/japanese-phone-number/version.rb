@@ -1,7 +1,3 @@
-module Japanese
-  module Phone
-    module Number
-      VERSION = "0.0.1"
-    end
-  end
+module JapanesePhoneNumber
+  VERSION = "0.0.1"
 end

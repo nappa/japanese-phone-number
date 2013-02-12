@@ -7,10 +7,14 @@ Gem::Specification.new do |gem|
   gem.name          = "japanese-phone-number"
   gem.version       = Japanese::Phone::Number::VERSION
   gem.authors       = ["Ryosuke Yamazaki"]
-  gem.email         = ["ryosukey@iij.ad.jp"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["ryosuke.yamazaki@mac.com"]
+  gem.description   = "Japanese Phone Number Validator"
+  gem.summary       = "Japanese Phone Number Validator"
   gem.homepage      = ""
+
+  gem.add_development_dependency('roo')
+  gem.add_development_dependency('test-unit')
+  gem.add_development_dependency('shoulda')
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
