@@ -12,6 +12,9 @@ Gem::Specification.new do |gem|
   gem.summary       = "Japanese Phone Number Validator"
   gem.homepage      = ""
 
+  gem.add_development_dependency('rake')
+  gem.add_development_dependency('mechanize')
+  gem.add_development_dependency('nokogiri')
   gem.add_development_dependency('roo')
   gem.add_development_dependency('test-unit')
   gem.add_development_dependency('shoulda')

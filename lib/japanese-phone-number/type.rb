@@ -24,7 +24,7 @@ module JapanesePhoneNumber
   module NaviDial
   end
 
-  # 着信者課金(0800-DEF-xxxx)
+  # 着信者課金(0800-DEF-xxxx, 0120-DEF-xxxx)
   module TollFree
   end
 
@@ -32,6 +32,10 @@ module JapanesePhoneNumber
   module IP
   end
 
+  # 事業者識別番号
+  module Operator
+
+  end
   # 不明
   module Unknown
   end
